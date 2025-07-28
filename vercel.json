@@ -1,7 +1,16 @@
 {
   "headers": [
     {
-      "source": "/Brainwave/assets/(.*)\\.js",
+      "source": "/Brainwave/assets/(.*).js",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/javascript"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*).js",
       "headers": [
         {
           "key": "Content-Type",
