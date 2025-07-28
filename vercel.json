@@ -18,5 +18,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/Brainwave/(.*)",
+      "destination": "/$1"
+    }
   ]
 }
